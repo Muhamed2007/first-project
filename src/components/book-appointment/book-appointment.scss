@@ -1,0 +1,103 @@
+.book-appointment {
+    margin: 0 auto;
+    width: 75%;
+    box-shadow: rgb(126, 126, 126) 0px 0px 20px 3px;
+    margin-top: 150px;
+    padding: 30px 50px;
+    margin-bottom: 200px;
+
+    h1 {
+        color: #00c6a9;
+        font-size: 30px;
+
+        b {
+            color: #000;
+        }
+    }
+
+    .linear {
+        width: 110px;
+        height: 4px;
+        background-color: #00c6a9;
+        margin-bottom: 40px;
+    }
+
+    .inputs {
+        width: 80%;
+
+        .top,
+        .buttom {
+            display: flex;
+            justify-content: space-between;
+
+
+
+            width: 100%;
+
+            @media (max-width: 1024px) {
+                display: block;
+            }
+        }
+
+
+        .input {
+            width: 80%;
+            padding-right: 50px;
+
+            p {
+                font-size: 22px;
+            }
+
+            input {
+                width: 100%;
+                height: 45px;
+                border: #00c6a9 1px solid;
+                border-radius: 3px;
+
+                // @media (max-width: 1024px) {
+                //     width: 800px;
+                // }
+
+                // @media (max-width: 768px) {
+                //     width: 620px;
+                // }
+                // @media (max-width: 414px) {
+                //     width: 300px;
+
+                // }
+            }
+        }
+
+        @media (max-width: 1024px) {
+            width: 900px;
+        }
+
+        @media (max-width: 768px) {
+            width: 720px;
+        }
+
+        @media (max-width: 414px) {
+            width: 370px;
+
+        }
+    }
+
+    button {
+        background-color: #000;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    @media (max-width: 1024px) {
+        width: 900px;
+    }
+
+    @media (max-width: 768px) {
+        width: 720px;
+    }
+
+    @media (max-width: 414px) {
+        width: 370px;
+        padding: 30px 30px;
+    }
+}
